@@ -54,6 +54,9 @@
   - OBS'teki sesinizle, gerçek hızda: sesiniz yazıyla eş zamanlı, yalnızca sessiz beklemeler kısalır.
   - Ya da sessiz ve hızlandırılmış: 15, 30 ya da 60 saniye.
   - Videoda uygulama adı ya da imza yoktur.
+- ✏️ **Şeklin üstüne kalemle yazın:** alttaki panele gitmeden, kalemi bırakmadan.
+  - Üçgenin köşesine yazdığınız açı o köşeye, kenarına yazdığınız uzunluk o kenara yerleşir; el yazınız düzgün yazıya dönüşür.
+  - Tablo boş gelir, hücrelere yazarsınız. Atomun halkasına koyduğunuz nokta elektron olur.
 - 🟩 **Kara ve yeşil tahta:** koyu tahtada kalem tebeşir dokusunda yazar.
 - ✍️ **Akıllı kalem:**
   - Kalemi bir an bekletince çizgi düzelir; daire, üçgen ve dikdörtgen kusursuz hâle gelir.
@@ -161,6 +164,9 @@ CastCanvas iPad uygulaması şu an deneme aşamasında. App Store bağlantısı 
   - With your OBS audio, in real time: your voice stays in sync with the writing; only silent pauses are shortened.
   - Or silent and sped up: 15, 30 or 60 seconds.
   - No app name or watermark in the video.
+- ✏️ **Write on shapes with the pen:** no panel, no switching tools.
+  - Write an angle in a triangle's corner or a length next to a side and it snaps into place as neat text.
+  - Tables start empty and you write in the cells. A dot on an atom's shell becomes an electron.
 - 🟩 **Blackboard and greenboard:** on a dark board the pen writes with a chalk texture.
 - ✍️ **Smart pen:**
   - Hold the pen for a moment to straighten a line; circles, triangles and rectangles snap into shape.
