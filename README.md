@@ -205,3 +205,16 @@ After setup, open **CastCanvas › Settings › OBS** on the iPad and enter the 
 ### The iPad app
 
 The CastCanvas iPad app is currently in testing. The App Store link will appear here once it's published.
+
+---
+
+<p align="center">
+  <a href="PRIVACY.md">Gizlilik politikası · Privacy Policy</a> &nbsp;·&nbsp;
+  <a href="TERMS.md">Kullanım koşulları · Terms of Use</a> &nbsp;·&nbsp;
+  <a href="https://github.com/alihdr2/CastCanvas/issues">Destek · Support</a>
+</p>
+
+<p align="center"><sub>
+NDI® is a registered trademark of Vizrt NDI AB. CastCanvas is not an NDI product and is not endorsed by NDI; it is compatible with NDI.<br>
+OBS Studio is a trademark of the OBS Project. CastCanvas is not affiliated with the OBS Project.
+</sub></p>
