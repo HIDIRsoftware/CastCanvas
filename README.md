@@ -44,9 +44,21 @@
   - Şekiller: üçgenler, çokgenler, 3B cisimler.
   - Grafikler: fonksiyon grafikli koordinat düzlemi, sayı doğrusu.
   - Diğer: Venn şeması, kesir modelleri, tablo, formül.
+- 🧪 **Branşınıza göre araçlar:** branşınızı seçin, araçlarınız önce gelsin.
+  - Fizik: kuvvet okları, blok, eğik düzlem, makara, yay, devre elemanları (pil, direnç, ampul, ampermetre, voltmetre…), mercekler, aynalar, dalgalar.
+  - Kimya: periyodik tablo, atom modeli, laboratuvar malzemeleri, tepkime ve denge okları, benzen halkası, pH skalası.
+- ✂️ **Soruları otomatik ayırma:** deneme kitapçığını açın, numaralı sorular tek tek sayfalara ayrılsın (iki sütunlu ve taranmış sayfalar dahil).
+  - Her soru PDF'ten vektör olarak kesilir: yayın hangi boyutta olursa olsun keskin kalır, pikselleşmez.
+  - Sorunun yanında yazı alanı kalır; aradaki çizgiyi sürükleyerek alanı genişletip daraltırsınız.
+- 🎬 **Kısa video (Shorts, Reels, TikTok):** çözdüğünüz soru tek dokunuşla dikey video olur.
+  - OBS'teki sesinizle, gerçek hızda: sesiniz yazıyla eş zamanlı, yalnızca sessiz beklemeler kısalır.
+  - Ya da sessiz ve hızlandırılmış: 15, 30 ya da 60 saniye.
+  - Videoda uygulama adı ya da imza yoktur.
+- 🟩 **Kara ve yeşil tahta:** koyu tahtada kalem tebeşir dokusunda yazar.
 - ✍️ **Akıllı kalem:**
   - Kalemi bir an bekletince çizgi düzelir; daire, üçgen ve dikdörtgen kusursuz hâle gelir.
   - El yazısı formüle dönüşür.
+  - Apple Pencil ekrana yaklaşınca yayında küçük bir imleç görünür: izleyici nereyi göstereceğinizi görür.
 - 🔦 **Ders araçları:**
   - İzleyicinin dikkatini tek noktaya çeken odak (tiyatro spotu) ve lazer işaretçi.
   - Yayında da görünen geri sayım.
@@ -74,7 +86,7 @@
 flowchart LR
     iPad["iPad · CastCanvas<br/>Apple Pencil ile tahta"] -- "NDI · Wi-Fi<br/>tahta görüntüsü" --> OBS["OBS Studio<br/>+ DistroAV"]
     OBS -- "WebSocket<br/>kayıt · sahne · mikrofon" --> iPad
-    OBS -- "NDI ana çıkış<br/>canlı OBS görüntüsü" --> iPad
+    OBS -- "NDI ana çıkış<br/>canlı OBS görüntüsü · ses" --> iPad
     Kamera["Kamera"] --> OBS
     OBS --> Yayin["YouTube · kayıt"]
 ```
@@ -139,9 +151,21 @@ CastCanvas iPad uygulaması şu an deneme aşamasında. App Store bağlantısı 
   - Shapes: triangles, polygons, 3D solids.
   - Graphs: coordinate plane with function graphs, number line.
   - More: Venn diagrams, fraction models, tables, formulas.
+- 🧪 **Tools for your subject:** pick your subject and its tools come first.
+  - Physics: force arrows, block, inclined plane, pulley, spring, circuit elements (battery, resistor, bulb, ammeter, voltmeter…), lenses, mirrors, waves.
+  - Chemistry: periodic table, atom model, lab equipment, reaction and equilibrium arrows, benzene ring, pH scale.
+- ✂️ **Automatic question splitting:** open a workbook and each numbered question gets its own page (two-column and scanned pages too).
+  - Each question is cut from the PDF as vectors, so it stays sharp at any stream size and never pixelates.
+  - A writing area stays next to each question; drag the divider to make it wider or narrower.
+- 🎬 **Short videos (Shorts, Reels, TikTok):** turn a solved question into a vertical video with one tap.
+  - With your OBS audio, in real time: your voice stays in sync with the writing; only silent pauses are shortened.
+  - Or silent and sped up: 15, 30 or 60 seconds.
+  - No app name or watermark in the video.
+- 🟩 **Blackboard and greenboard:** on a dark board the pen writes with a chalk texture.
 - ✍️ **Smart pen:**
   - Hold the pen for a moment to straighten a line; circles, triangles and rectangles snap into shape.
   - Handwriting becomes a formula.
+  - When Apple Pencil hovers over the screen, a small pointer shows on stream so viewers see where you're pointing.
 - 🔦 **Teaching tools:**
   - A spotlight and a laser pointer to draw attention to one spot.
   - A countdown that also shows on stream.
@@ -169,7 +193,7 @@ CastCanvas iPad uygulaması şu an deneme aşamasında. App Store bağlantısı 
 flowchart LR
     iPad["iPad · CastCanvas<br/>board with Apple Pencil"] -- "NDI · Wi-Fi<br/>board picture" --> OBS["OBS Studio<br/>+ DistroAV"]
     OBS -- "WebSocket<br/>recording · scenes · mic" --> iPad
-    OBS -- "NDI main output<br/>live OBS picture" --> iPad
+    OBS -- "NDI main output<br/>live OBS picture · audio" --> iPad
     Camera["Camera"] --> OBS
     OBS --> Out["YouTube · recording"]
 ```

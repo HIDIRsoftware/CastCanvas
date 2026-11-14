@@ -18,13 +18,19 @@
 
 ### Yerel ağ izni
 
-Yerel ağ izni şu üç iş için kullanılır:
+Yerel ağ izni şu dört iş için kullanılır:
 
 - Tahtanızın görüntüsünü **NDI** ile aynı ağdaki **kendi bilgisayarınızda** çalışan OBS'e göndermek.
 - OBS'in canlı görüntüsünü iPad'de göstermek.
+- OBS'in sesini kısa videolara eklemek için almak (aşağıya bakın).
 - Kaydı ve sahneleri iPad'den yönetmek (OBS WebSocket).
 
 Bu bağlantılar yalnızca iPad ile sizin bilgisayarınız arasındadır, yerel ağınızın dışına çıkmaz. CastCanvas internet üzerinden veri göndermez.
+
+### Kısa videolar ve OBS sesi
+
+- "OBS sesini kaydet" açıksa (Ayarlar › OBS, varsayılan açık), OBS'in NDI ana çıkışındaki ses (OBS'teki mikrofonunuz) iPad'de **yalnızca son 2 saat** saklanır ve yalnızca sizin hazırladığınız kısa videoya eklenmek için kullanılır. Ses hiçbir yere gönderilmez; daha eskisi kendiliğinden, ayar kapatılınca hepsi silinir. Uygulama iPad'in mikrofonunu kullanmaz.
+- Kısa videolar Fotoğraflar'a yalnızca siz "Fotoğraflar'a kaydet" derseniz eklenir. Uygulama fotoğraflarınızı okumaz.
 
 ### Kamera izni
 
@@ -60,13 +66,19 @@ Bu politika değişirse bu sayfa güncellenir. Sorularınız için: [github.com/
 
 ### Local network permission
 
-The local network permission is used for three things:
+The local network permission is used for four things:
 
 - Sending your board's picture over **NDI** to OBS on **your own computer** on the same network.
 - Showing OBS's live picture on the iPad.
+- Receiving OBS's audio to add to short videos (see below).
 - Controlling recording and scenes from the iPad (OBS WebSocket).
 
 These connections are only between the iPad and your computer and never leave your local network. CastCanvas sends no data over the internet.
+
+### Short videos and OBS audio
+
+- When "Record OBS audio" is on (Settings › OBS, on by default), the audio from OBS's NDI main output (your microphone in OBS) is kept on the iPad **for the last 2 hours only**. It is used only to add sound to short videos you make. The audio is never sent anywhere; older audio is deleted automatically, and all of it is deleted when you turn the setting off. The app does not use the iPad's microphone.
+- Short videos are added to Photos only when you choose "Save to Photos". The app does not read your photos.
 
 ### Camera permission
 
