@@ -45,7 +45,7 @@ CastCanvas'ı kullanarak ürün geliştiren üçüncü taraflar NDI® SDK lisans
 
 ### İletişim
 
-[github.com/alihdr2/CastCanvas/issues](https://github.com/alihdr2/CastCanvas/issues)
+[github.com/HIDIRsoftware/CastCanvas/issues](https://github.com/HIDIRsoftware/CastCanvas/issues)
 
 ---
 
@@ -88,4 +88,4 @@ Third parties who build products using CastCanvas must comply with the NDI® SDK
 
 ### Contact
 
-[github.com/alihdr2/CastCanvas/issues](https://github.com/alihdr2/CastCanvas/issues)
+[github.com/HIDIRsoftware/CastCanvas/issues](https://github.com/HIDIRsoftware/CastCanvas/issues)

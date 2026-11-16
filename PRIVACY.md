@@ -50,7 +50,7 @@ CastCanvas kimseden kişisel veri toplamaz; buna 13 yaşından küçük çocukla
 
 ### Değişiklikler ve iletişim
 
-Bu politika değişirse bu sayfa güncellenir. Sorularınız için: [github.com/alihdr2/CastCanvas/issues](https://github.com/alihdr2/CastCanvas/issues)
+Bu politika değişirse bu sayfa güncellenir. Sorularınız için: [github.com/HIDIRsoftware/CastCanvas/issues](https://github.com/HIDIRsoftware/CastCanvas/issues)
 
 ---
 
@@ -98,4 +98,4 @@ CastCanvas collects no personal data from anyone, including children under 13.
 
 ### Changes and contact
 
-If this policy changes, this page will be updated. Questions: [github.com/alihdr2/CastCanvas/issues](https://github.com/alihdr2/CastCanvas/issues)
+If this policy changes, this page will be updated. Questions: [github.com/HIDIRsoftware/CastCanvas/issues](https://github.com/HIDIRsoftware/CastCanvas/issues)

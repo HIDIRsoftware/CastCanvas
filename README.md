@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alihdr2/CastCanvas/releases/latest/download/CastCanvas-Setup-Windows.zip"><img alt="Windows kurulumu" src="https://img.shields.io/badge/Windows_10%2F11-Kurulum_%2F_Setup-0078D6?style=for-the-badge"></a>
+  <a href="https://github.com/HIDIRsoftware/CastCanvas/releases/latest/download/CastCanvas-Setup-Windows.zip"><img alt="Windows kurulumu" src="https://img.shields.io/badge/Windows_10%2F11-Kurulum_%2F_Setup-0078D6?style=for-the-badge"></a>
   &nbsp;
-  <a href="https://github.com/alihdr2/CastCanvas/releases/latest/download/CastCanvas-Setup-Mac.zip"><img alt="Mac kurulumu" src="https://img.shields.io/badge/macOS_12%2B-Kurulum_%2F_Setup-555555?style=for-the-badge"></a>
+  <a href="https://github.com/HIDIRsoftware/CastCanvas/releases/latest/download/CastCanvas-Setup-Mac.zip"><img alt="Mac kurulumu" src="https://img.shields.io/badge/macOS_12%2B-Kurulum_%2F_Setup-555555?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -34,10 +34,11 @@
 ### Öne çıkanlar
 
 - 📡 **Kablosuz ve keskin:** tahta OBS'e **NDI** ile gider, sahnenizdeki alanın tam piksel boyutunda (ör. 1280×1080). PDF ve yazılar bulanıklaşmaz. Ev Wi-Fi'ı ya da bilgisayarın etkin noktası yeterli.
+- 🔌 **İsterseniz kabloyla:** iPad'e şarj girişli bir USB-C Ethernet adaptörü takıp iPad'i ve bilgisayarı aynı modeme ya da switch'e bağlayın. Gecikme en düşük ve en kararlı olur; iPad ders boyunca şarj da olur. Capture kart ile HDMI üzerinden de çalışır.
 - 🎛️ **OBS'i iPad'den yönetin:**
   - Kaydı başlatıp durdurun, sahne değiştirin.
   - Mikrofon seviyesini izleyin; sesiniz kesilirse uyarı alırsınız.
-  - OBS'in canlı görüntüsü iPad'de küçük bir monitörde durur.
+  - OBS'in canlı görüntüsü iPad'de bir monitörde durur; istediğiniz yere taşıyıp istediğiniz boyuta getirirsiniz.
 - 🔖 **Soru başına bölümler:** her soru kayıtta bir bölüm olur ve YouTube açıklaması için zaman listesi hazır gelir. İsterseniz her soru ayrı bir video olarak kaydedilir.
 - 📐 **Matematik araçları:**
   - Ölçme araçları: cetvel, iletki, gönye, pergel.
@@ -49,19 +50,20 @@
   - Kimya: periyodik tablo, atom modeli, laboratuvar malzemeleri, tepkime ve denge okları, benzen halkası, pH skalası.
 - ✂️ **Soruları otomatik ayırma:** deneme kitapçığını açın, numaralı sorular tek tek sayfalara ayrılsın (iki sütunlu ve taranmış sayfalar dahil).
   - Her soru PDF'ten vektör olarak kesilir: yayın hangi boyutta olursa olsun keskin kalır, pikselleşmez.
-  - Sorunun yanında yazı alanı kalır; aradaki çizgiyi sürükleyerek alanı genişletip daraltırsınız.
+  - Sorunun yanında yazı alanı kalır; aradaki çizgiyi sürükleyerek alanı genişletip daraltırsınız; yazdıklarınız alanla birlikte kayar.
 - 🎬 **Kısa video (Shorts, Reels, TikTok):** çözdüğünüz soru tek dokunuşla dikey video olur.
   - OBS'teki sesinizle, gerçek hızda: sesiniz yazıyla eş zamanlı, yalnızca sessiz beklemeler kısalır.
   - Ya da sessiz ve hızlandırılmış: 15, 30 ya da 60 saniye.
   - Videoda uygulama adı ya da imza yoktur.
 - ✏️ **Şeklin üstüne kalemle yazın:** alttaki panele gitmeden, kalemi bırakmadan.
   - Üçgenin köşesine yazdığınız açı o köşeye, kenarına yazdığınız uzunluk o kenara yerleşir; el yazınız düzgün yazıya dönüşür.
-  - Tablo boş gelir, hücrelere yazarsınız. Atomun halkasına koyduğunuz nokta elektron olur.
+  - Şekiller boş gelir (hazır harf ya da açı yazmaz), tablo da boş gelir; üstüne siz yazarsınız. Atomun halkasına koyduğunuz nokta elektron olur.
 - 🟩 **Kara ve yeşil tahta:** koyu tahtada kalem tebeşir dokusunda yazar.
 - ✍️ **Akıllı kalem:**
   - Kalemi bir an bekletince çizgi düzelir; daire, üçgen ve dikdörtgen kusursuz hâle gelir.
   - El yazısı formüle dönüşür.
-  - Apple Pencil ekrana yaklaşınca yayında küçük bir imleç görünür: izleyici nereyi göstereceğinizi görür.
+  - İsterseniz Apple Pencil ekrana yaklaşınca yayında küçük bir imleç görünür (Ayarlar'dan açılır).
+  - Kalemin yanına iki kez dokunarak silgiye, lazere ya da önceki araca geçin; kalemi hiç bırakmayın.
 - 🔦 **Ders araçları:**
   - İzleyicinin dikkatini tek noktaya çeken odak (tiyatro spotu) ve lazer işaretçi.
   - Yayında da görünen geri sayım.
@@ -101,7 +103,7 @@ Kurulum sihirbazı bilgisayarı tek seferde hazırlar:
 - **OBS Studio**, **NDI Runtime** ve **DistroAV** (OBS için NDI eklentisi) kurulur. Kurulu olanlar atlanır, eski sürümler güncellenir.
 - Programlar resmi kaynaklarından indirilir ve kurulmadan önce doğrulanır (SHA-256 özeti ve dijital imza).
 - OBS iPad için ayarlanır: kaydı iPad'den başlatma (WebSocket) ve iPad'de canlı OBS görüntüsü (NDI ana çıkışı).
-- **Windows:** güvenlik duvarı izinleri verilir. İsterseniz 5 GHz mobil etkin nokta da açılır.
+- **Windows:** güvenlik duvarı izinleri verilir. İsterseniz 5 GHz mobil etkin nokta da açılır (kabloyla bağlanacaksanız gerekmez). OBS'teki iPad tahta kaynağı en düşük gecikmeye alınır.
 - **Mac:** gerekli izinler (Yerel Ağ, Kamera, Mikrofon) tek tek gösterilir. Bitişte iPad'in okutacağı kare kod çıkar.
 
 <table>
@@ -113,7 +115,7 @@ Kurulum sihirbazı bilgisayarı tek seferde hazırlar:
 
 | | Windows 10/11 | macOS 12 ve üstü |
 |---|---|---|
-| 1 | [Zip'i indirin](https://github.com/alihdr2/CastCanvas/releases/latest/download/CastCanvas-Setup-Windows.zip). Sağ tık › **Tümünü ayıkla** | [Zip'i indirin](https://github.com/alihdr2/CastCanvas/releases/latest/download/CastCanvas-Setup-Mac.zip). Açılınca **CastCanvas Setup** uygulaması çıkar |
+| 1 | [Zip'i indirin](https://github.com/HIDIRsoftware/CastCanvas/releases/latest/download/CastCanvas-Setup-Windows.zip). Sağ tık › **Tümünü ayıkla** | [Zip'i indirin](https://github.com/HIDIRsoftware/CastCanvas/releases/latest/download/CastCanvas-Setup-Mac.zip). Açılınca **CastCanvas Setup** uygulaması çıkar |
 | 2 | **CastCanvas-Setup.exe**'ye çift tıklayın | Uygulamayı açın |
 | 3 | Windows yönetici izni sorar: **Evet** | NDI kurulurken Mac parolanızı bir kez sorar |
 
@@ -127,7 +129,7 @@ Kurulumdan sonra iPad'de **CastCanvas › Ayarlar › OBS** bölümünü açın 
 
 - **iPad:** iPadOS 17 ya da üstü. Apple Pencil önerilir.
 - **Bilgisayar:** Windows 10/11 ya da macOS 12 ve üstü. OBS Studio 31.1.1 ya da üstü gerekir; kurulum kendisi kurar.
-- **Ağ:** iPad ile bilgisayar aynı ağda olmalı: aynı Wi-Fi ya da bilgisayarın mobil etkin noktası.
+- **Ağ:** iPad ile bilgisayar aynı ağda olmalı: aynı Wi-Fi, bilgisayarın mobil etkin noktası ya da kablo (iPad'e USB-C Ethernet adaptörü, ikisi aynı modem ya da switch'te).
 
 ### iPad uygulaması
 
@@ -144,10 +146,11 @@ CastCanvas iPad uygulaması şu an deneme aşamasında. App Store bağlantısı 
 ### Highlights
 
 - 📡 **Wireless and sharp:** the board reaches OBS over **NDI** at the exact pixel size of its slot in your scene (e.g. 1280×1080). PDFs and handwriting stay crisp. Home Wi-Fi or your computer's hotspot is enough.
+- 🔌 **Or use a cable:** plug a USB-C Ethernet adapter with a charging port into the iPad and connect the iPad and the computer to the same router or switch. Latency is lowest and steadiest, and the iPad charges during the lesson. HDMI through a capture card works too.
 - 🎛️ **Control OBS from the iPad:**
   - Start and stop recording, switch scenes.
   - Watch your microphone level; you're warned if your audio drops out.
-  - A small monitor on the iPad shows the live OBS picture.
+  - A monitor on the iPad shows the live OBS picture; move it anywhere and resize it to any size.
 - 🔖 **Chapters per question:** each question becomes a chapter in the recording, and a timestamp list for the YouTube description is ready when you stop. Optionally, each question is saved as its own video.
 - 📐 **Math tools:**
   - Measuring: ruler, protractor, set squares, compass.
@@ -159,19 +162,20 @@ CastCanvas iPad uygulaması şu an deneme aşamasında. App Store bağlantısı 
   - Chemistry: periodic table, atom model, lab equipment, reaction and equilibrium arrows, benzene ring, pH scale.
 - ✂️ **Automatic question splitting:** open a workbook and each numbered question gets its own page (two-column and scanned pages too).
   - Each question is cut from the PDF as vectors, so it stays sharp at any stream size and never pixelates.
-  - A writing area stays next to each question; drag the divider to make it wider or narrower.
+  - A writing area stays next to each question; drag the divider to make it wider or narrower, and your writing moves with it.
 - 🎬 **Short videos (Shorts, Reels, TikTok):** turn a solved question into a vertical video with one tap.
   - With your OBS audio, in real time: your voice stays in sync with the writing; only silent pauses are shortened.
   - Or silent and sped up: 15, 30 or 60 seconds.
   - No app name or watermark in the video.
 - ✏️ **Write on shapes with the pen:** no panel, no switching tools.
   - Write an angle in a triangle's corner or a length next to a side and it snaps into place as neat text.
-  - Tables start empty and you write in the cells. A dot on an atom's shell becomes an electron.
+  - Shapes come blank (no preset letters or angles) and tables start empty; you write on them. A dot on an atom's shell becomes an electron.
 - 🟩 **Blackboard and greenboard:** on a dark board the pen writes with a chalk texture.
 - ✍️ **Smart pen:**
   - Hold the pen for a moment to straighten a line; circles, triangles and rectangles snap into shape.
   - Handwriting becomes a formula.
-  - When Apple Pencil hovers over the screen, a small pointer shows on stream so viewers see where you're pointing.
+  - Optionally, a small pointer shows on stream when Apple Pencil hovers over the screen (turn it on in Settings).
+  - Double-tap Apple Pencil to switch to the eraser, the laser or your previous tool without putting it down.
 - 🔦 **Teaching tools:**
   - A spotlight and a laser pointer to draw attention to one spot.
   - A countdown that also shows on stream.
@@ -216,7 +220,7 @@ The setup wizard gets your computer ready in one go:
 
 | | Windows 10/11 | macOS 12 or later |
 |---|---|---|
-| 1 | [Download the zip](https://github.com/alihdr2/CastCanvas/releases/latest/download/CastCanvas-Setup-Windows.zip). Right-click › **Extract All** | [Download the zip](https://github.com/alihdr2/CastCanvas/releases/latest/download/CastCanvas-Setup-Mac.zip). Opening it gives you the **CastCanvas Setup** app |
+| 1 | [Download the zip](https://github.com/HIDIRsoftware/CastCanvas/releases/latest/download/CastCanvas-Setup-Windows.zip). Right-click › **Extract All** | [Download the zip](https://github.com/HIDIRsoftware/CastCanvas/releases/latest/download/CastCanvas-Setup-Mac.zip). Opening it gives you the **CastCanvas Setup** app |
 | 2 | Double-click **CastCanvas-Setup.exe** | Open the app |
 | 3 | Windows asks for administrator permission: **Yes** | Your Mac asks for your password once while NDI is installed |
 
@@ -230,7 +234,7 @@ After setup, open **CastCanvas › Settings › OBS** on the iPad and enter the 
 
 - **iPad:** iPadOS 17 or later. Apple Pencil recommended.
 - **Computer:** Windows 10/11 or macOS 12 or later. Needs OBS Studio 31.1.1 or later, which the setup installs for you.
-- **Network:** the iPad and the computer must be on the same network: the same Wi-Fi or the computer's hotspot.
+- **Network:** the iPad and the computer must be on the same network: the same Wi-Fi, the computer's hotspot, or a cable (a USB-C Ethernet adapter on the iPad, both on the same router or switch).
 
 ### The iPad app
 
@@ -241,7 +245,7 @@ The CastCanvas iPad app is currently in testing. The App Store link will appear 
 <p align="center">
   <a href="PRIVACY.md">Gizlilik politikası · Privacy Policy</a> &nbsp;·&nbsp;
   <a href="TERMS.md">Kullanım koşulları · Terms of Use</a> &nbsp;·&nbsp;
-  <a href="https://github.com/alihdr2/CastCanvas/issues">Destek · Support</a>
+  <a href="https://github.com/HIDIRsoftware/CastCanvas/issues">Destek · Support</a>
 </p>
 
 <p align="center"><sub>
