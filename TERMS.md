@@ -1,6 +1,6 @@
 # Kullanım Koşulları · Terms of Use (EULA)
 
-**CastCanvas: Live Whiteboard** · Son güncelleme / Last updated: 14 Kasım 2026 / November 14, 2026
+**CastCanvas: Live Whiteboard** (iPad, Android) ve **CastCanvas Cam** (iPhone, Android) · Son güncelleme / Last updated: 19 Kasım 2026 / November 19, 2026
 
 [Türkçe](#türkçe) · [English](#english)
 
@@ -8,7 +8,14 @@
 
 ## Türkçe
 
-CastCanvas iPad uygulaması, Apple'ın [Standart Lisans Sözleşmesi](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) ve aşağıdaki ek koşullarla lisanslanır. CastCanvas'ın Windows ve Mac kurulum programları da bu ek koşullara tabidir. Uygulamayı ya da kurulum programlarını kullanarak bu koşulları kabul etmiş olursunuz.
+Bu koşullar şunlar için geçerlidir:
+- **CastCanvas** (iPad ve Android);
+- **CastCanvas Cam** (iPhone ve Android);
+- CastCanvas'ın Windows ve Mac kurulum programları.
+
+App Store'dan indirilen uygulamalar Apple'ın [Standart Lisans Sözleşmesi](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) ve aşağıdaki ek koşullarla lisanslanır. Google Play'den ya da başka bir yoldan indirilen Android uygulamaları ve kurulum programları aşağıdaki koşullarla lisanslanır. Uygulamaları ya da kurulum programlarını kullanarak bu koşulları kabul etmiş olursunuz.
+
+Android'deki CastCanvas, Google'ın ML Kit kütüphanesini kullanır; bu kütüphane [Google API Hizmet Şartları](https://developers.google.com/terms)'na tabidir. CastCanvas Cam NDI bileşeni içermez; aşağıdaki NDI maddeleri yalnızca CastCanvas'a ve kurulum programlarına uygulanır.
 
 ### 1. NDI® bileşenleri
 
@@ -51,7 +58,14 @@ CastCanvas'ı kullanarak ürün geliştiren üçüncü taraflar NDI® SDK lisans
 
 ## English
 
-The CastCanvas iPad app is licensed under Apple's [Standard License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) together with the additional terms below. CastCanvas's Windows and Mac setup programs are also subject to these additional terms. By using the app or the setup programs, you agree to these terms.
+These terms apply to:
+- **CastCanvas** (iPad and Android);
+- **CastCanvas Cam** (iPhone and Android);
+- CastCanvas's Windows and Mac setup programs.
+
+Apps downloaded from the App Store are licensed under Apple's [Standard License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) together with the additional terms below. Android apps downloaded from Google Play or elsewhere, and the setup programs, are licensed under the terms below. By using the apps or the setup programs, you agree to these terms.
+
+CastCanvas on Android uses Google's ML Kit library, which is subject to the [Google APIs Terms of Service](https://developers.google.com/terms). CastCanvas Cam contains no NDI components; the NDI sections below apply only to CastCanvas and the setup programs.
 
 ### 1. NDI® components
 

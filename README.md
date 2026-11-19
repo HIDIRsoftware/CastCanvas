@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="#türkçe">Türkçe</a> · <a href="#english">English</a>
+  <a href="#türkçe">Türkçe</a> · <a href="#english">English</a> · <a href="kurulum/README.md">Kurulum rehberi / Setup guide</a> · <a href="PRIVACY.md">Gizlilik / Privacy</a>
 </p>
 
 <p align="center">
